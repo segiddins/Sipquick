@@ -1,0 +1,10 @@
+(def print_even x (condition (== (% x 2) 0) (print "even") (print "odd")))
+(print_even 17)
+(print_even 12)
+(print_even -1)
+(print_even 1)
+(print_even (* 0 1))
+/////
+it allows branching
+0
+oddevenoddoddeven

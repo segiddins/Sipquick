@@ -1,0 +1,7 @@
+(def fizzbuzz x (condition (<= x 0) (return "") (condition (== 0 (% x 15)) (+ (fizzbuzz (- x 1)) "fizzbuzz") (condition (== 0 (% x 3)) (+ (fizzbuzz (- x 1)) "fizz") (condition (== 0 (% x 5)) (+ (fizzbuzz (- x 1)) "buzz") (+ (fizzbuzz (- x 1)) (String x)))))))
+(def fetch_arg position default (condition (!= nil ([] ARGV position)) ([] ARGV position) (return default)))
+(print (fizzbuzz (fetch_arg 0 100)))
+/////
+it computes fizzbuzz
+0
+12fizz4buzzfizz78fizzbuzz11fizz1314fizzbuzz1617fizz19buzzfizz2223fizzbuzz26fizz2829fizzbuzz3132fizz34buzzfizz3738fizzbuzz41fizz4344fizzbuzz4647fizz49buzzfizz5253fizzbuzz56fizz5859fizzbuzz6162fizz64buzzfizz6768fizzbuzz71fizz7374fizzbuzz7677fizz79buzzfizz8283fizzbuzz86fizz8889fizzbuzz9192fizz94buzzfizz9798fizzbuzz

@@ -1,0 +1,6 @@
+(def f (+ "foo" "bar"))
+(print f)
+/////
+it allows defining a function
+0
+foobar

@@ -1,0 +1,6 @@
+(def f a b (+ a b))
+(print (f 1 17))
+/////
+it allows using variables in functions
+0
+18

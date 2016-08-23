@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+def print_even(x)
+if ((x).%(2)).==(0)
+      print(("even"))
+else
+      print(("odd"))
+end
+end
+print_even((17))
+print_even((12))
+print_even((-1))
+print_even((1))
+print_even(((0).*(1)))
+

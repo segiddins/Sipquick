@@ -1,0 +1,7 @@
+(print 1)
+(print 2)
+(exit 2)
+/////
+it parses multiple toplevel expressions
+2
+12

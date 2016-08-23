@@ -1,0 +1,6 @@
+(var a 6)
+(var b 7)
+(exit (+ a b))
+/////
+it allows using variables
+13

@@ -1,0 +1,6 @@
+(def fib x (condition (<= x 1) x (+ (fib (- x 1)) (fib (- x 2)))))
+(print (fib 10))
+/////
+it computes the fibonacci sequence
+0
+55
